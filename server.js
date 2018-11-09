@@ -11,3 +11,5 @@ var port = 8080;
 app.listen(port, ()=> console.log('Server Started at port:' +port));
 
 app.use('/employees', employeeController);
+
+module.exports = app ;
